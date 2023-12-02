@@ -1,0 +1,25 @@
+ls: list the contents of a directory;
+
+pwd: displays the current path;
+
+cat {fileName}: displays the content of this file;
+
+echo {text} > {fileName}: override the content of this file with the text informed as parameter; in case of file does not exists in path, create;
+
+echo {text} >> {fileName}: adds the text at the end of the file;
+
+clear: clears the terminal screen;
+
+rm {fileName}: remove the file;
+
+mv {fileName} {newName or newDirectory}: rename or move the file;
+
+mkdir {folderName} {folderName}? {folderName}?: create a directory;
+
+rmdir {folderName}: remove the directory;
+
+cp {fileName} {directoryName}: copy the file to the directory;
+
+touch {fileName}: create a file;
+
+{command} --help: displays possible arguments based on the command;
