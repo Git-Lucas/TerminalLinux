@@ -1,9 +1,14 @@
+./{scriptName}.sh: run the script after grants permissions;
 {command} --help: displays possible arguments based on the command;
+{scriptName}.sh: run the script if the path is in environment variable;
+bash {scriptName}.sh: run the script without the step of grants permissions;
 cat {fileName}: displays the content of this file;
+chmod {flags} {fileName}: grants permissions;
 clear: clears the terminal screen;
 cp {fileName} {directoryName}: copy the file to the directory;
 echo {text} > {fileName}: override the content of this file with the text informed as parameter; in case of file does not exists in path, create;
 echo {text} >> {fileName}: adds the text at the end of the file;
+export PATH=$PATH:{pathScript}: add the path in environment variable PATH, and allows execute the script from any folder;
 head -c {numberCharacters} {fileName}: displays the firsts numberCharacters of the file;
 less {folderName}.zip or .tar.gz: display the content compressed;
 ls: list the contents of a directory;
